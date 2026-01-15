@@ -11,7 +11,7 @@ applications:
     tool:
       helm:
         releaseName: blue-green
-  - name: guestbook
+  - name: guestbook-argocd
   - name: helm-dependency
     tool:
       helm:
