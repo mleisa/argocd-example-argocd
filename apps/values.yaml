@@ -3,15 +3,8 @@ config:
     destination:
       server: https://kubernetes.default.svc
     source:
-      repoURL: https://github.com/argoproj/argocd-example-apps
+      repoURL: https://https://github.com/mleisa/argocd-example-argocd
       targetRevision: master
 
 applications:
   - name: guestbook-argocd
-  - name: helm-hooks
-  - name: jsonnet-guestbook
-  - name: jsonnet-guestbook-tla
-  - name: kustomize-guestbook
-  - name: pre-post-sync
-  - name: sock-shop
-  - name: sync-waves
