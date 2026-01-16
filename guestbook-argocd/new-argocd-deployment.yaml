@@ -12,6 +12,7 @@ spec:
     metadata:
       labels:
         app: new-deployment-argocd
+        team: sre
     spec:
       containers:
         - image: gcr.io/google-samples/gb-frontend:v5
