@@ -8,7 +8,6 @@ spec:
   selector:
     matchLabels:
       app: guestbook-argocd
-      team: sre
   template:
     metadata:
       labels:
